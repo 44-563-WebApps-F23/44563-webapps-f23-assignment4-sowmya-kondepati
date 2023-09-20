@@ -1,0 +1,18 @@
+.speech{
+    font-style: normal;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    color: black;
+}
+
+.direction{
+    font-size: medium;
+    font-style: italic;
+    color: black;
+    background-color: burlywood
+    
+}
+.direction:hover{
+    background-color: aliceblue;
+    color: burlywood;
+}
