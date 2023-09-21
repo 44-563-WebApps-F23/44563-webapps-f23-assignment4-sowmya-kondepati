@@ -28,13 +28,51 @@
     background-color: aqua;
 
 }
-.Alving {
-    
-    color: aqua; 
+.Alving:hover {
+    text-shadow:7px 7px 7px red(320,140,118);
+    border:4px soild;
+    cursor:pointer;
+    background-color:aqua; 
 
 }
-
 
 .manders {
     color: blue;
 }
+.Aliving {
+    color :blueviolet
+}
+td {
+    border: 2px soild blue;
+    text-align: center;
+    padding:8px;
+}
+tr:nth-child(even){
+    background-color:brown;
+}
+tr:nth-child(odd){
+    background-color:green;
+}
+
+ul.horizontal-navbar a {
+    width: 100px;
+    background-color: bisque;
+}
+ul.horizontal-navbar li{
+    display:inline;
+    margin-right:30px;
+}
+ul.horizontal-navbar a {
+    display: inline;
+    text-decoration: none;
+    color:black;
+    font-weight:bold;
+}
+
+ul.horizontal-navbar a:hover{
+    color:black;
+}
+   
+
+
+
